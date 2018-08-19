@@ -140,7 +140,7 @@ def main():
     sht31 = SHT31()
 
     while True:
-        print(sht31.read_status())
+        print(sht31.read_temperature_humidity())
         time.sleep(2)
         
 if __name__ == '__main__':
